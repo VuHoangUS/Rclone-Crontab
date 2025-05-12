@@ -28,4 +28,11 @@ rclone config
 rclone copy "<path_local>" "<Tên remote:Thư mục>"
 ```
 
+## 2. Setup Crontab
+
+```
+crontab -e
+
+*/1 * * * * /mnt/rdisk/hoangvuong/Rclone_HPC.sh > /del/null
+```
 
